@@ -1,12 +1,17 @@
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-class RecursiveFunctionsTest {
+import model.RecursiveFunctions;
 
+class RecursiveFunctionsTest {
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void factorial() {
+		assertEquals(0,RecursiveFunctions.factorial(0), "No funciona bien");
+		
+		
+		
+		
 	}
 
 }
